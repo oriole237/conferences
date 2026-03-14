@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css?v=1" />
   </head>
 
   <body>
@@ -35,7 +35,7 @@
               <li>
                 <a href="./conferenciers.html">CONFERENCIERS</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="./programme.html">PROGRAMME</a>
               </li>
               <li>
@@ -47,6 +47,10 @@
             </ul>
           </nav>
         </div>
+
+        <button id="theme-toggle">
+          Mode sombre
+        </button>
       </div>
     </header>
 
@@ -213,7 +217,7 @@
           <li>
             <a href="./conferenciers.html">Conférenciers</a>
           </li>
-          <li>
+          <li class="active">
             <a href="./programme.html">Programme</a>
           </li>
           <li>
@@ -225,5 +229,7 @@
         </ul>
       </nav>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
